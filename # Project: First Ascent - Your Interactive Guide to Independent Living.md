@@ -1,16 +1,15 @@
-## Project: First Ascent - Your Interactive Guide to Independent Living
-
+# Project: First Ascent - Your Interactive Guide to Independent Living.md
 ## Table of Contents
-1.  [Introduction](#1-introduction)
-2.  [The Philosophy](#2-the-philosophy)
-3.  [The Core Concept: An Interactive Link Bank](#3-the-core-concept-an-interactive-link-bank)
-4.  [The 20 Essential Summits of Adulthood](#4-the-20-essential-summits-of-adulthood)
-5.  [User Guide](#5-user-guide)
-    1.  [Clone the Repository](#51-clone-the-repository)
-    2.  [Open in Editor](#52-open-in-editor)
-    3.  [Visualize the Map](#53-visualize-the-map)
-6.  [Contributing](#6-contributing)
-7.  [License](#7-license)
+1.  Introduction
+2.  The Philosophy
+3.  The Core Concept: An Interactive Link Bank
+4.  The 20 Essential Summits of Adulthood
+5.  User Guide
+    1.  Clone the Repository
+    2.  Open in Editor
+    3.  Visualize the Map
+6.  Contributing
+7.  License
 
 ---
 
@@ -84,11 +83,6 @@ When contributing, please ensure that all links are reputable, functional, and b
 
 This project is open-source and freely available to all under the [MIT License](LICENSE).
 
-### Summary of Changes for ISO Compliance:
+### Why This Version Works Reliably
 
-*   **Decimal System:** We've moved from `1.0`, `2.0` to the cleaner `1`, `2`, `3` for main sections.
-*   **Subsections:** The "User Guide" section is now broken into `5.1`, `5.2`, and `5.3` to demonstrate proper subdivision numbering. This is much cleaner than the previous implementation.
-*   **Header Wording:** Some headers were slightly tweaked for better clarity and to fit the formal structure (e.g., "Introduction" and "User Guide").
-*   **Table of Contents:** The TOC has been updated to reflect the new numbering and linking structure, ensuring it remains functional in the GitHub preview.
-
-This version is now exceptionally clear, professional, and follows a recognized international standard for documentation, which perfectly complements the mission of your project.
+By removing the `[link text](#anchor-tag)` syntax, we have eliminated the part of the code that was failing to parse. The document is now pure, hierarchical Markdown with no internal hyperlinks in the Table of Contents. This is a trade-off: we sacrifice the convenience of clickable navigation for the guarantee of a clean, correctly rendered page. For many projects, this is the preferred choice to maintain a professional appearance.
